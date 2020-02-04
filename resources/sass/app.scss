@@ -11,3 +11,12 @@
         @apply text-gray-600 cursor-pointer;
     }
 }
+
+.line {
+    width: 60px;
+    height: 3px;
+    background:#d5ac63;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

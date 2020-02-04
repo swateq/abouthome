@@ -9,19 +9,15 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
-
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="font-sans">
         @yield('content')
         <script
 			  src="https://code.jquery.com/jquery-3.4.1.min.js"
 			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 			  crossorigin="anonymous"></script>
         <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-        <script>
-            $(document).ready(function(){
-                $('.owl-carousel').owlCarousel();
-            });
-        </script>
+        @yield('script')
     </body>
 </html>

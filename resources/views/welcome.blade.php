@@ -26,7 +26,7 @@
             <h2 class="text-2xl">About Home</h2>
             <span class="line"></span>
             <p class="mb-4">Projektujemy eleganckie i ponadczasowe meble na wymiar, które doskonale odzwierciedlają osobowości ich właścicieli.</p>
-            <a href="#" class="uppercase text-white bg-main rounded-full py-2 px-4 hover:bg-white hover:text-main border border-main">Sprawdź naszą ofertę</a>
+            <a href="#" class="uppercase text-white bg-main rounded-full py-2 px-4 hover:bg-white hover:text-main border border-main transition-colors transition-500 transition-linear">Sprawdź naszą ofertę</a>
         </div>
     </section>
 
@@ -52,9 +52,6 @@
         </div>
     </section>
 
-    <section>
-
-    </section>
 @endsection
 
 @section('script')

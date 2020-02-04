@@ -1,4 +1,4 @@
-<nav class="flex justify-between px-6">
+<nav class="flex justify-between px-6 container mx-auto">
     <img class="-my-8 block" src="/img/logo.jpg" alt="Logo image" width="210px" height="149px">
 
     <ul class="flex py-8">
